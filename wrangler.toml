@@ -1,0 +1,8 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "my-cloudflare-worker"
+main = "worker.js"
+compatibility_date = "2026-06-24"
+compatibility_flags = ["nodejs_compat"]
+
+[observability]
+enabled = true
